@@ -1,5 +1,5 @@
 # Loon 自动配置 - 此配置文件自动选择网络时延最低的节点，全程无需人工干预，完全自动化。
-# Date: 2026-08-19 18:05
+# Date: 2026-08-19 21:32
 # Author: https://t.me/iKeLee
 # 更多插件可前往 https://hub.kelee.one 安装
 
@@ -77,6 +77,13 @@ https://kelee.one/Tool/Loon/Lsr/TikTok.lsr, policy=新国时延优选, tag=TikTo
 https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy=美国时延优选, tag=AI, enabled=true
 https://kelee.one/Tool/Loon/Lsr/SpeedtestInternational.lsr, policy=全球手动策略, tag=Speedtest Intl, enabled=true
 https://rule.kelee.one/Loon/AliPay.lsr, policy=DIRECT, tag=Alipay, enabled=true
+https://rule.kelee.one/Loon/PCCW.lsr, policy=香港时延优选, tag=PCCW, enabled=true
+https://rule.kelee.one/Loon/TVB.lsr, policy=香港时延优选, tag=TVB, enabled=true
+https://rule.kelee.one/Loon/Tencent.lsr, policy=DIRECT, tag=騰訊, enabled=true
+https://rule.kelee.one/Loon/UnionPay.lsr, policy=DIRECT, tag=銀聯, enabled=true
+https://rule.kelee.one/Loon/ViuTV.lsr, policy=香港时延优选, tag=ViuTV, enabled=true
+https://rule.kelee.one/Loon/Weibo.lsr, policy=DIRECT, tag=WeChat, enabled=true
+https://rule.kelee.one/Loon/myTVSUPER.lsr, policy=香港时延优选, tag=MyTVSuper, enabled=true
 https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER.lsr, policy=DIRECT, tag=LAN, enabled=true
 https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER.lsr, policy=DIRECT, tag=CN REGION, enabled=true
 
