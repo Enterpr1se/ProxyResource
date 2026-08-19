@@ -1,5 +1,5 @@
 # Loon 自动配置 - 此配置文件自动选择网络时延最低的节点，全程无需人工干预，完全自动化。
-# Date: 2026-08-19 17:07
+# Date: 2026-08-19 18:05
 # Author: https://t.me/iKeLee
 # 更多插件可前往 https://hub.kelee.one 安装
 
@@ -76,6 +76,7 @@ https://rule.kelee.one/Loon/Telegram.lsr, policy=兜底后备策略, tag=Telegra
 https://kelee.one/Tool/Loon/Lsr/TikTok.lsr, policy=新国时延优选, tag=TikTok, enabled=true
 https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy=美国时延优选, tag=AI, enabled=true
 https://kelee.one/Tool/Loon/Lsr/SpeedtestInternational.lsr, policy=全球手动策略, tag=Speedtest Intl, enabled=true
+https://rule.kelee.one/Loon/AliPay.lsr, policy=DIRECT, tag=Alipay, enabled=true
 https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER.lsr, policy=DIRECT, tag=LAN, enabled=true
 https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER.lsr, policy=DIRECT, tag=CN REGION, enabled=true
 
