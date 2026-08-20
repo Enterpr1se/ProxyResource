@@ -1,5 +1,5 @@
 # Loon 自動配置 - 此配置文件自動選擇網絡時延最低的節點，全程無需人工干預，完全自動化。
-# Date: 2026-08-21 00:48
+# Date: 2026-08-21 00:03
 # Author: https://t.me/iKeLee
 # 更多插件可前往 https://hub.kelee.one 安裝
 
@@ -39,12 +39,15 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 韓國節點=NameRegex, FilterKey="^(?=.*((?i)🇰🇷|韩国|韩|首尔|(\b(KR|KOR|Korea)(\d+)?\b)))(?!.*((?i)回國|回国|校園|校园|遊戲|游戏|🎮|(\b(GAME)\b))).*$"
 新加坡節點=NameRegex, FilterKey="^(?=.*((?i)🇸🇬|新加坡|新国|狮|(\b(SG|SGP|Singapore)(\d+)?\b)))(?!.*((?i)回國|回国|校園|校园|遊戲|游戏|🎮|(\b(GAME)\b))).*$"
 美國節點=NameRegex, FilterKey="^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|USA|United States)(\d+)?\b)))(?!.*((?i)回國|回国|校園|校园|遊戲|游戏|🎮|(\b(GAME)\b))).*$"
+越南節點=NameRegex, FilterKey="^(?=.*((?i)🇻🇳|越南|河内|西贡|(\b(KR|KOR|Korea)(\d+)?\b)))(?!.*((?i)回國|回国|校園|校园|遊戲|游戏|🎮|(\b(GAME)\b))).*$"
+德國節點=NameRegex, FilterKey="^(?=.*((?i)🇩🇪|德国|德|汉堡|柏林|(\b(KR|KOR|Korea)(\d+)?\b)))(?!.*((?i)回國|回国|校園|校园|遊戲|游戏|🎮|(\b(GAME)\b))).*$"
+英國節點=NameRegex, FilterKey="^(?=.*((?i)🇬🇧|英国|英|伦敦|(\b(KR|KOR|Korea)(\d+)?\b)))(?!.*((?i)回國|回国|校園|校园|遊戲|游戏|🎮|(\b(GAME)\b))).*$"
 遊戲節點=NameRegex, FilterKey="^(?=.*((?i)遊戲|🎮|(\b(GAME)(\d+)?\b)))(?!.*((?i)回國|回国|校園|校园)).*$"
 全球節點=NameRegex, FilterKey="^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|邀请|好友|失联|(\b(USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author|Traffic)(\d+)?\b|(\d{4}-\d{2}-\d{2}|\dG)))).*$"
 
 [Proxy Group]
 # 頂層選擇（預設用原本順序嘅自動）
-節點選擇 = select, 自動時延, 香港優先自動, 台灣優先自動, 日本優先自動, 韓國優先自動, 新加坡優先自動, 美國優先自動, 香港手動策略, 台灣手動策略, 日本手動策略, 韓國手動策略, 新加坡手動策略, 美國手動策略, 遊戲手動策略, 全球手動策略, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+節點選擇 = select, 自動時延, 香港優先自動, 台灣優先自動, 日本優先自動, 韓國優先自動, 新加坡優先自動, 美國優先自動, 香港手動策略, 台灣手動策略, 日本手動策略, 韓國手動策略, 新加坡手動策略, 美國手動策略, 越南手動策略, 德國手動策略, 英國手動策略, 遊戲手動策略, 全球手動策略, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 
 # 原本順序的自動（香港開頭）
 自動時延 = fallback, 香港時延優選, 台灣時延優選, 日本時延優選, 韓國時延優選, 新加坡時延優選, 美國時延優選, interval = 60, max-timeout = 2000, img-url = https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
@@ -64,6 +67,9 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 韓國手動策略 = select, 韓國節點, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
 新加坡手動策略 = select, 新加坡節點, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
 美國手動策略 = select, 美國節點, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+越南手動策略 = select, 越南節點, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+德國手動策略 = select, 德國節點, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+英國手動策略 = select, 英國節點, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 遊戲手動策略 = select, 遊戲節點, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png
 全球手動策略 = select, 全球節點, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 
