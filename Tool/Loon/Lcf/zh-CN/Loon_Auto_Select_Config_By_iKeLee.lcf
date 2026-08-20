@@ -67,8 +67,6 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 新国时延优选=url-test, 新国节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
 美国时延优选=url-test, 美国节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 # --------------------------------
-# 兜底策略后备
-兜底后备策略=fallback, 香港时延优选, 台湾时延优选, 日本时延优选, 韩国时延优选, 新国时延优选, 美国时延优选, interval=60, max-timeout=2000, img-url=https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
 
 [Rule]
 # 当配置文件中没有任何有效策略组时，Loon将使用内置的PROXY策略组
@@ -84,7 +82,7 @@ https://raw.githubusercontent.com/Enterpr1se/ProxyResource/refs/heads/main/Tool/
 https://rule.kelee.one/Loon/myTVSUPER.lsr, policy=香港时延优选, tag=MyTVSuper, enabled=true
 https://rule.kelee.one/Loon/PCCW.lsr, policy=香港时延优选, tag=PCCW, enabled=true
 https://kelee.one/Tool/Loon/Lsr/SpeedtestInternational.lsr, policy=全球手动策略, tag=Speedtest Intl, enabled=true
-https://rule.kelee.one/Loon/Telegram.lsr, policy=兜底后备策略, tag=Telegram, enabled=true
+https://rule.kelee.one/Loon/Telegram.lsr, policy=自动时延, tag=Telegram, enabled=true
 https://rule.kelee.one/Loon/Tencent.lsr, policy=DIRECT, tag=騰訊, enabled=true
 https://kelee.one/Tool/Loon/Lsr/TikTok.lsr, policy=新国时延优选, tag=TikTok, enabled=true
 https://rule.kelee.one/Loon/TVB.lsr, policy=香港时延优选, tag=TVB, enabled=true
@@ -105,12 +103,12 @@ https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/modules/wloc.lpx, 
 https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, pin=true, enabled=true
 https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, pin=true, enabled=true
 https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx, enabled=true
-https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx, policy=兜底后备策略, enabled=false
+https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx, policy=自动时延, enabled=false
 https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/TestFlightRegionUnlock.lpx, policy=DIRECT, enabled=false
-https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx, policy=兜底后备策略, enabled=true
-https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx, policy=兜底后备策略, enabled=true
-https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx, policy=兜底后备策略, enabled=true
+https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx, policy=自动时延, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx, policy=自动时延, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx, policy=自动时延, enabled=true
 
 [Mitm]
 hostname=
