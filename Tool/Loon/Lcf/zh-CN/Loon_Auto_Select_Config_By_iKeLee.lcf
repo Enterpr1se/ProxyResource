@@ -1,7 +1,7 @@
-# Loon 自动配置 - 此配置文件自动选择网络时延最低的节点，全程无需人工干预，完全自动化。
-# Date: 2026-08-21 00:03
+# Loon 自動配置 - 此配置文件自動選擇網絡時延最低的節點，全程無需人工干預，完全自動化。
+# Date: 2026-08-21 00:48
 # Author: https://t.me/iKeLee
-# 更多插件可前往 https://hub.kelee.one 安装
+# 更多插件可前往 https://hub.kelee.one 安裝
 
 [General]
 ip-mode=dual
@@ -33,68 +33,68 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 [Remote Proxy]
 
 [Remote Filter]
-香港节点=NameRegex, FilterKey="^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
-台湾节点=NameRegex, FilterKey="^(?=.*((?i)🇹🇼|台湾|(\b(TW|TWN|Tai|Taiwan)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
-日本节点=NameRegex, FilterKey="^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|JPN|Japan)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
-韩国节点=NameRegex, FilterKey="^(?=.*((?i)🇰🇷|韩国|韓|首尔|(\b(KR|KOR|Korea)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
-新国节点=NameRegex, FilterKey="^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|SGP|Singapore)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
-美国节点=NameRegex, FilterKey="^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|USA|United States)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
-游戏节点=NameRegex, FilterKey="^(?=.*((?i)游戏|🎮|(\b(GAME)(\d+)?\b)))(?!.*((?i)回国|校园)).*$"
-全球节点=NameRegex, FilterKey="^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|邀请|好友|失联|(\b(USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author|Traffic)(\d+)?\b|(\d{4}-\d{2}-\d{2}|\dG)))).*$"
+香港節點=NameRegex, FilterKey="^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*((?i)回國|回国|校園|校园|遊戲|游戏|🎮|(\b(GAME)\b))).*$"
+台灣節點=NameRegex, FilterKey="^(?=.*((?i)🇹🇼|台灣|台湾|(\b(TW|TWN|Tai|Taiwan)(\d+)?\b)))(?!.*((?i)回國|回国|校園|校园|遊戲|游戏|🎮|(\b(GAME)\b))).*$"
+日本節點=NameRegex, FilterKey="^(?=.*((?i)🇯🇵|日本|川日|东京|大坂|泉日|埼玉|(\b(JP|JPN|Japan)(\d+)?\b)))(?!.*((?i)回國|回国|校園|校园|遊戲|游戏|🎮|(\b(GAME)\b))).*$"
+韓國節點=NameRegex, FilterKey="^(?=.*((?i)🇰🇷|韩国|韩|首尔|(\b(KR|KOR|Korea)(\d+)?\b)))(?!.*((?i)回國|回国|校園|校园|遊戲|游戏|🎮|(\b(GAME)\b))).*$"
+新加坡節點=NameRegex, FilterKey="^(?=.*((?i)🇸🇬|新加坡|新国|狮|(\b(SG|SGP|Singapore)(\d+)?\b)))(?!.*((?i)回國|回国|校園|校园|遊戲|游戏|🎮|(\b(GAME)\b))).*$"
+美國節點=NameRegex, FilterKey="^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|USA|United States)(\d+)?\b)))(?!.*((?i)回國|回国|校園|校园|遊戲|游戏|🎮|(\b(GAME)\b))).*$"
+遊戲節點=NameRegex, FilterKey="^(?=.*((?i)遊戲|🎮|(\b(GAME)(\d+)?\b)))(?!.*((?i)回國|回国|校園|校园)).*$"
+全球節點=NameRegex, FilterKey="^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|邀请|好友|失联|(\b(USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author|Traffic)(\d+)?\b|(\d{4}-\d{2}-\d{2}|\dG)))).*$"
 
 [Proxy Group]
 # 頂層選擇（預設用原本順序嘅自動）
-节点选择 = select, 自动时延, 香港优先自动, 台湾优先自动, 日本优先自动, 韩国优先自动, 新国优先自动, 美国优先自动, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新国手动策略, 美国手动策略, 游戏手动策略, 全球手动策略, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+節點選擇 = select, 自動時延, 香港優先自動, 台灣優先自動, 日本優先自動, 韓國優先自動, 新加坡優先自動, 美國優先自動, 香港手動策略, 台灣手動策略, 日本手動策略, 韓國手動策略, 新加坡手動策略, 美國手動策略, 遊戲手動策略, 全球手動策略, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 
 # 原本順序的自動（香港開頭）
-自动时延 = fallback, 香港时延优选, 台湾时延优选, 日本时延优选, 韩国时延优选, 新国时延优选, 美国时延优选, interval = 60, max-timeout = 2000, img-url = https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
+自動時延 = fallback, 香港時延優選, 台灣時延優選, 日本時延優選, 韓國時延優選, 新加坡時延優選, 美國時延優選, interval = 60, max-timeout = 2000, img-url = https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
 
-# 各地區優先自動（死晒先跌去下一個）
-香港优先自动 = fallback, 香港时延优选, 台湾时延优选, 日本时延优选, 韩国时延优选, 新国时延优选, 美国时延优选, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
-台湾优先自动 = fallback, 台湾时延优选, 日本时延优选, 韩国时延优选, 新国时延优选, 美国时延优选, 香港时延优选, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
-日本优先自动 = fallback, 日本时延优选, 韩国时延优选, 新国时延优选, 美国时延优选, 香港时延优选, 台湾时延优选, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
-韩国优先自动 = fallback, 韩国时延优选, 新国时延优选, 美国时延优选, 香港时延优选, 台湾时延优选, 日本时延优选, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
-新国优先自动 = fallback, 新国时延优选, 美国时延优选, 香港时延优选, 台湾时延优选, 日本时延优选, 韩国时延优选, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
-美国优先自动 = fallback, 美国时延优选, 香港时延优选, 台湾时延优选, 日本时延优选, 韩国时延优选, 新国时延优选, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+# 各地區優先自動（死曬先跌去下一個）
+香港優先自動 = fallback, 香港時延優選, 台灣時延優選, 日本時延優選, 韓國時延優選, 新加坡時延優選, 美國時延優選, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+台灣優先自動 = fallback, 台灣時延優選, 日本時延優選, 韓國時延優選, 新加坡時延優選, 美國時延優選, 香港時延優選, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+日本優先自動 = fallback, 日本時延優選, 韓國時延優選, 新加坡時延優選, 美國時延優選, 香港時延優選, 台灣時延優選, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+韓國優先自動 = fallback, 韓國時延優選, 新加坡時延優選, 美國時延優選, 香港時延優選, 台灣時延優選, 日本時延優選, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
+新加坡優先自動 = fallback, 新加坡時延優選, 美國時延優選, 香港時延優選, 台灣時延優選, 日本時延優選, 韓國時延優選, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+美國優先自動 = fallback, 美國時延優選, 香港時延優選, 台灣時延優選, 日本時延優選, 韓國時延優選, 新加坡時延優選, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 
-# 手动策略组（保持原樣）
-香港手动策略 = select, 香港节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
-台湾手动策略 = select, 台湾节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
-日本手动策略 = select, 日本节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
-韩国手动策略 = select, 韩国节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
-新国手动策略 = select, 新国节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
-美国手动策略 = select, 美国节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
-游戏手动策略 = select, 游戏节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png
-全球手动策略 = select, 全球节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+# 手動策略組（保持原樣）
+香港手動策略 = select, 香港節點, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+台灣手動策略 = select, 台灣節點, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+日本手動策略 = select, 日本節點, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+韓國手動策略 = select, 韓國節點, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
+新加坡手動策略 = select, 新加坡節點, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+美國手動策略 = select, 美國節點, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+遊戲手動策略 = select, 遊戲節點, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png
+全球手動策略 = select, 全球節點, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 
-# 时延优选（保持原樣，只負責該地區內部揀最低延遲）
-香港时延优选 = url-test, 香港节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
-台湾时延优选 = url-test, 台湾节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
-日本时延优选 = url-test, 日本节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
-韩国时延优选 = url-test, 韩国节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
-新国时延优选 = url-test, 新国节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
-美国时延优选 = url-test, 美国节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
+# 時延優選（保持原樣，只負責該地區內部揀最低延遲）
+香港時延優選 = url-test, 香港節點, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
+台灣時延優選 = url-test, 台灣節點, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
+日本時延優選 = url-test, 日本節點, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
+韓國時延優選 = url-test, 韓國節點, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
+新加坡時延優選 = url-test, 新加坡節點, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
+美國時延優選 = url-test, 美國節點, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 
 [Rule]
-# 当配置文件中没有任何有效策略组时，Loon将使用内置的PROXY策略组
-# 当配置文件中存在有效的策略组时，内置的PROXY策略组将不再允许被调用，仅可使用用户配置的策略组
-# 配置文件已自带远程GEOIP, cn, DIRECT规则，请勿在此添加
-# 请勿修改远程CN REGION规则的排序甚至删除
-FINAL, 节点选择
+# 當配置文件中沒有任何有效策略組時，Loon將使用內置的PROXY策略組
+# 當配置文件中存在有效的策略組時，內置的PROXY策略組將不再允許被調用，僅可使用用戶配置的策略組
+# 配置文件已自帶遠程GEOIP, cn, DIRECT規則，請勿在此添加
+# 請勿修改遠程CN REGION規則的排序甚至刪除
+FINAL, 節點選擇
 
 [Remote Rule]
-https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy=美国时延优选, tag=AI, enabled=true
+https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy=美國時延優選, tag=AI, enabled=true
 https://rule.kelee.one/Loon/AliPay.lsr, policy=DIRECT, tag=Alipay, enabled=true
-https://raw.githubusercontent.com/Enterpr1se/ProxyResource/refs/heads/main/Tool/Loon/Lcf/rules/HKJC.lcf, policy=香港时延优选, tag=HKJC, enabled=true
-https://rule.kelee.one/Loon/myTVSUPER.lsr, policy=香港时延优选, tag=MyTVSuper, enabled=true
-https://rule.kelee.one/Loon/PCCW.lsr, policy=香港时延优选, tag=PCCW, enabled=true
-https://kelee.one/Tool/Loon/Lsr/SpeedtestInternational.lsr, policy=全球手动策略, tag=Speedtest Intl, enabled=true
-https://rule.kelee.one/Loon/Telegram.lsr, policy=自动时延, tag=Telegram, enabled=true
+https://raw.githubusercontent.com/Enterpr1se/ProxyResource/refs/heads/main/Tool/Loon/Lcf/rules/HKJC.lcf, policy=香港時延優選, tag=HKJC, enabled=true
+https://rule.kelee.one/Loon/myTVSUPER.lsr, policy=香港時延優選, tag=MyTVSuper, enabled=true
+https://rule.kelee.one/Loon/PCCW.lsr, policy=香港時延優選, tag=PCCW, enabled=true
+https://kelee.one/Tool/Loon/Lsr/SpeedtestInternational.lsr, policy=全球手動策略, tag=Speedtest Intl, enabled=true
+https://rule.kelee.one/Loon/Telegram.lsr, policy=自動時延, tag=Telegram, enabled=true
 https://rule.kelee.one/Loon/Tencent.lsr, policy=DIRECT, tag=騰訊, enabled=true
-https://kelee.one/Tool/Loon/Lsr/TikTok.lsr, policy=新国时延优选, tag=TikTok, enabled=true
-https://rule.kelee.one/Loon/TVB.lsr, policy=香港时延优选, tag=TVB, enabled=true
+https://kelee.one/Tool/Loon/Lsr/TikTok.lsr, policy=新加坡時延優選, tag=TikTok, enabled=true
+https://rule.kelee.one/Loon/TVB.lsr, policy=香港時延優選, tag=TVB, enabled=true
 https://rule.kelee.one/Loon/UnionPay.lsr, policy=DIRECT, tag=銀聯, enabled=true
-https://rule.kelee.one/Loon/ViuTV.lsr, policy=香港时延优选, tag=ViuTV, enabled=true
+https://rule.kelee.one/Loon/ViuTV.lsr, policy=香港時延優選, tag=ViuTV, enabled=true
 https://rule.kelee.one/Loon/Weibo.lsr, policy=DIRECT, tag=WeChat, enabled=true
 https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER.lsr, policy=DIRECT, tag=LAN, enabled=true
 https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER.lsr, policy=DIRECT, tag=CN REGION, enabled=true
@@ -110,12 +110,12 @@ https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/modules/wloc.lpx, 
 https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, pin=true, enabled=true
 https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, pin=true, enabled=true
 https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx, enabled=true
-https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx, policy=自动时延, enabled=false
+https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx, policy=自動時延, enabled=false
 https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/TestFlightRegionUnlock.lpx, policy=DIRECT, enabled=false
-https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx, policy=自动时延, enabled=true
-https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx, policy=自动时延, enabled=true
-https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx, policy=自动时延, enabled=true
+https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx, policy=自動時延, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx, policy=自動時延, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx, policy=自動時延, enabled=true
 
 [Mitm]
 hostname=
