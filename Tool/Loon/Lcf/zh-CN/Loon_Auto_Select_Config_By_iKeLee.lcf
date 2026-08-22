@@ -1,5 +1,5 @@
 # Loon 自動配置 - 此配置文件自動選擇網絡時延最低的節點，全程無需人工干預，完全自動化。
-# Date: 2026-08-22 14:42
+# Date: 2026-08-22 16:29
 # Author: https://t.me/iKeLee
 # 更多插件可前往 https://hub.kelee.one 安裝
 
@@ -48,7 +48,7 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 節點選擇 = select, 自動時延（香港優先）, 台灣優先自動, 日本優先自動, 韓國優先自動, 新加坡優先自動, 美國優先自動, 其他優先自動, 香港手動策略, 台灣手動策略, 日本手動策略, 韓國手動策略, 新加坡手動策略, 美國手動策略, 其他手動策略, 遊戲手動策略, 全球手動策略, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
 
 # 原本順序自動（香港開頭）
-自動時延（香港優先） = fallback, 香港時延優選, 台灣時延優選, 日本時延優選, 韓國時延優選, 新加坡時延優選, 美國時延優選, 其他時延優選, interval = 60, max-timeout = 2000, img-url = https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
+自動時延（香港優先） = 香港時延優選, 台灣時延優選, 日本時延優選, 韓國時延優選, 新加坡時延優選, 美國時延優選, 其他時延優選, interval = 60, max-timeout = 2000, img-url = https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
 
 # 各地區優先自動（該地區死晒先跌去下一個）
 台灣優先自動 = fallback, 台灣時延優選, 日本時延優選, 韓國時延優選, 新加坡時延優選, 美國時延優選, 其他時延優選, 香港時延優選, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
