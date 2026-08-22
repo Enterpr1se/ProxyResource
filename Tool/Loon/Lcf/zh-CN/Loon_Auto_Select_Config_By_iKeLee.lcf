@@ -92,7 +92,7 @@ https://raw.githubusercontent.com/Enterpr1se/ProxyResource/refs/heads/main/Tool/
 https://rule.kelee.one/Loon/myTVSUPER.lsr, policy=香港時延優選, tag=MyTVSuper, enabled=true
 https://rule.kelee.one/Loon/PCCW.lsr, policy=香港時延優選, tag=PCCW, enabled=true
 https://kelee.one/Tool/Loon/Lsr/SpeedtestInternational.lsr, policy=全球手動策略, tag=Speedtest Intl, enabled=true
-https://rule.kelee.one/Loon/Telegram.lsr, policy=自動時延, tag=Telegram, enabled=true
+https://rule.kelee.one/Loon/Telegram.lsr, policy=自動時延（香港優先）, tag=Telegram, enabled=true
 https://rule.kelee.one/Loon/Tencent.lsr, policy=DIRECT, tag=騰訊, enabled=true
 https://kelee.one/Tool/Loon/Lsr/TikTok.lsr, policy=新加坡時延優選, tag=TikTok, enabled=true
 https://rule.kelee.one/Loon/TVB.lsr, policy=香港時延優選, tag=TVB, enabled=true
@@ -113,12 +113,12 @@ https://raw.githubusercontent.com/Yu9191/wloc/refs/heads/main/modules/wloc.lpx, 
 https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, pin=true, enabled=true
 https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, pin=true, enabled=true
 https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx, enabled=true
-https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx, policy=自動時延, enabled=false
+https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx, policy=自動時延（香港優先）, enabled=false
 https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/TestFlightRegionUnlock.lpx, policy=DIRECT, enabled=false
-https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx, policy=自動時延, enabled=true
-https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx, policy=自動時延, enabled=true
-https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx, policy=自動時延, enabled=true
+https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx, policy=自動時延（香港優先）, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx, policy=自動時延（香港優先）, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx, policy=自動時延（香港優先）, enabled=true
 
 [Mitm]
 hostname=
